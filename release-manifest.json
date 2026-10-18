@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1789,
+      "sha256": "56b4792a9d3229b0b10e154f9285a644e971edb1a4c87af634fb6121e138d7c3"
+    },
+    {
+      "path": "assets/index-Cy8gM5Pq.css",
+      "bytes": 231772,
+      "sha256": "73160ff95f4daebdc852a50e801a97fdcb3226028f3bed44adb462886a5207d9"
+    },
+    {
+      "path": "assets/index-DcAkZ3_H.js",
+      "bytes": 724814,
+      "sha256": "7a65ceeb1c191b314cc9171ee624a3e61495e9f6c6b6a53527df7168371bc898"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 313,
+      "sha256": "a3ed65f382810b2818abd463f11c0e1ed576587267df75f83db0788ee077e1c5"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1061,
+      "sha256": "7d10045863dcaea681dad23612cd734c7d33cc2adc1698fdb42e010a2712c9a9"
+    }
+  ]
+}
