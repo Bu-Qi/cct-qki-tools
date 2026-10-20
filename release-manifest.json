@@ -1,5 +1,7 @@
 {
   "schemaVersion": 1,
+  "scope": "cct-free-only",
+  "memberSite": "https://cct-qki-tools.mofei1-9304.chatgpt.site",
   "files": [
     {
       "path": ".nojekyll",
@@ -8,18 +10,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 1789,
-      "sha256": "56b4792a9d3229b0b10e154f9285a644e971edb1a4c87af634fb6121e138d7c3"
+      "bytes": 1829,
+      "sha256": "f6c155f6a5c77e6f800d3f2d227378c2af06e5b19ac21973d50d60703b243f02"
     },
     {
-      "path": "assets/index-Cy8gM5Pq.css",
-      "bytes": 231772,
-      "sha256": "73160ff95f4daebdc852a50e801a97fdcb3226028f3bed44adb462886a5207d9"
+      "path": "assets/index-CBsq8v9U.css",
+      "bytes": 232894,
+      "sha256": "31963dec358194cffc9a5cbd01d05ddba6dd759ac970887afc483f9f4594e6b0"
     },
     {
-      "path": "assets/index-DcAkZ3_H.js",
-      "bytes": 724814,
-      "sha256": "7a65ceeb1c191b314cc9171ee624a3e61495e9f6c6b6a53527df7168371bc898"
+      "path": "assets/index-CDVmYt4E.js",
+      "bytes": 547987,
+      "sha256": "0c1e51fe64f8fcd9ba85bbea96134140fe73d20090eb9015dc66a931938f973e"
     },
     {
       "path": "favicon.svg",
@@ -28,8 +30,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1061,
-      "sha256": "7d10045863dcaea681dad23612cd734c7d33cc2adc1698fdb42e010a2712c9a9"
+      "bytes": 1054,
+      "sha256": "a8a9999ca4a931a7686393e09861f63df00f95d173d870aa94b32226f6fea51d"
     }
   ]
 }
