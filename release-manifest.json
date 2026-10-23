@@ -14,18 +14,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 3508,
-      "sha256": "09070d1d38c0ef5578ce6d87d4e25548eb365a1e10cff87f855e5d2375ca52ff"
+      "bytes": 4445,
+      "sha256": "c1f94802996919cfb286d43c2fef33c7f6312514b700bcf42536506e6fe8ca17"
     },
     {
-      "path": "assets/index-COkY98mz.js",
-      "bytes": 839949,
-      "sha256": "2303b50e0081ca062f4042fc0e2282cb58451ad2b9e11d6d56590c01c5d16970"
+      "path": "assets/index-eKWCmzmB.css",
+      "bytes": 249325,
+      "sha256": "ebc5bea69414a5b68f3d4ed612ad03804a70ef2a8bb1e50d94498eb913b122f6"
     },
     {
-      "path": "assets/index-ifEhmxS-.css",
-      "bytes": 233461,
-      "sha256": "71783fd0983b80eb80b409e60a13875c7e15f1f5dd6da92cf7455d113a6a5b0f"
+      "path": "assets/index-kbuZQ6Kc.js",
+      "bytes": 996097,
+      "sha256": "4d8eba7cf62c4702d9139fe5f27acd1dbbf38d4d84890f7f3035da54a5f69d4e"
     },
     {
       "path": "favicon.svg",
@@ -34,8 +34,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1088,
-      "sha256": "c51c66c28bc64405bed360759b0ecf55addde274a68573e0f29c32412c79b4a7"
+      "bytes": 1105,
+      "sha256": "d35dd85ff82e13f3ff12241b21ea673eb443677bd998702b06a8444e96baa98b"
     }
   ]
 }
