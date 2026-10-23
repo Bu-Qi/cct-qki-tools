@@ -1,7 +1,11 @@
 {
-  "schemaVersion": 1,
-  "scope": "cct-free-only",
-  "memberSite": "https://cct-qki-tools.mofei1-9304.chatgpt.site",
+  "schemaVersion": 2,
+  "scope": "cct-qki-free",
+  "publicApiOrigin": "https://cct-qki-tools.mofei1-9304.chatgpt.site",
+  "publicRpcEndpoints": [
+    "https://rpc1.qkiscan.io/",
+    "https://hz.rpc.qkiscan.cn/"
+  ],
   "files": [
     {
       "path": ".nojekyll",
@@ -10,18 +14,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 3183,
-      "sha256": "d30000300d78c8f1a75be42ffb637ad5838e714e334ef90d99f6f82a426d34b0"
+      "bytes": 3508,
+      "sha256": "09070d1d38c0ef5578ce6d87d4e25548eb365a1e10cff87f855e5d2375ca52ff"
     },
     {
-      "path": "assets/index-BIkg31d2.js",
-      "bytes": 661456,
-      "sha256": "1706cb25d3ec37508943385b9ce3c46a52b111a01ae5c743c6c3b527b040b28e"
+      "path": "assets/index-COkY98mz.js",
+      "bytes": 839949,
+      "sha256": "2303b50e0081ca062f4042fc0e2282cb58451ad2b9e11d6d56590c01c5d16970"
     },
     {
-      "path": "assets/index-zii4GAVf.css",
-      "bytes": 232921,
-      "sha256": "86cf92489c6b102e58ed940836da792636fdf978c6f477f5161fb3176c4436d6"
+      "path": "assets/index-ifEhmxS-.css",
+      "bytes": 233461,
+      "sha256": "71783fd0983b80eb80b409e60a13875c7e15f1f5dd6da92cf7455d113a6a5b0f"
     },
     {
       "path": "favicon.svg",
@@ -30,8 +34,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1054,
-      "sha256": "f3659a2e4d4580da8fe01e08cc8a3e1a7bf4dca0932f2de54bd4d3ab52a9b288"
+      "bytes": 1088,
+      "sha256": "c51c66c28bc64405bed360759b0ecf55addde274a68573e0f29c32412c79b4a7"
     }
   ]
 }
