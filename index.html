@@ -12,9 +12,117 @@
     <link rel="icon" type="image/svg+xml" href="/cct-qki-tools/favicon.svg" />
     <script type="module" crossorigin src="/cct-qki-tools/assets/index-BddbIj6A.js"></script>
     <link rel="stylesheet" crossorigin href="/cct-qki-tools/assets/index-CJK_GGZl.css">
+    <style id="cct-community-style">
+      html { scroll-padding-top: var(--cct-community-height, 84px); }
+      #cct-community-banner { position: sticky; top: 0; z-index: 40; color: #234032; background: #f0f7e8; border-bottom: 1px solid #d2dfc7; font-family: inherit; }
+      #cct-community-banner * { box-sizing: border-box; }
+      .cct-community-inner { max-width: 1400px; min-height: 64px; margin: 0 auto; padding: 10px 42px; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+      .cct-community-copy { display: flex; align-items: center; gap: 12px; min-width: 0; }
+      .cct-community-badge { flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid #d3e2c4; border-radius: 12px; color: #416b2e; background: #e3efd8; font-size: 11px; font-weight: 700; }
+      .cct-community-text { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 14px; line-height: 1.6; }
+      .cct-community-text strong { color: #234032; font-size: 15px; font-weight: 700; white-space: nowrap; }
+      .cct-community-detail { color: #51634b; font-size: 12px; }
+      #cct-community-number { color: #2c4f24; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: .04em; user-select: text; white-space: nowrap; }
+      .cct-community-actions { display: flex; align-items: center; flex: 0 0 auto; gap: 8px; }
+      #cct-community-join, #cct-community-copy { min-height: 38px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 14px; border-radius: 9px; border: 1px solid #c7d8b8; font: inherit; font-size: 12px; font-weight: 600; line-height: 1.2; text-decoration: none; cursor: pointer; white-space: nowrap; }
+      #cct-community-join { color: #fff; background: #456f2d; border-color: #456f2d; }
+      #cct-community-join:hover { background: #345621; border-color: #345621; }
+      #cct-community-copy { color: #36512b; background: #fff; }
+      #cct-community-copy:hover { background: #e7f0de; }
+      #cct-community-join:focus-visible, #cct-community-copy:focus-visible { outline: 3px solid #7f9f58; outline-offset: 3px; }
+      #cct-community-status { position: absolute; top: calc(100% + 8px); right: max(16px, calc((100vw - 1316px) / 2)); max-width: min(360px, calc(100vw - 32px)); margin: 0; padding: 10px 14px; border: 1px solid #d2dfc7; border-radius: 10px; color: #234032; background: #fff; box-shadow: 0 6px 20px #17342214; font-size: 12px; line-height: 1.7; }
+      #cct-community-status:empty { display: none; }
+      @media (max-width: 760px) {
+        .cct-community-inner { padding: 10px 20px; }
+        .cct-community-text { display: block; }
+        .cct-community-detail { display: block; }
+        .cct-community-topic { display: none; }
+      }
+      @media (max-width: 480px) {
+        .cct-community-inner { padding: 8px 12px; gap: 8px; flex-wrap: wrap; }
+        .cct-community-copy { flex: 1 1 150px; gap: 8px; }
+        .cct-community-badge { display: none; }
+        .cct-community-actions { gap: 6px; }
+        #cct-community-join, #cct-community-copy { min-height: 40px; padding: 0 10px; font-size: 11px; }
+        .cct-community-text strong { font-size: 14px; }
+        .cct-community-detail { font-size: 11px; }
+      }
+      @media print { #cct-community-banner { display: none; } }
+    </style>
   </head>
   <body class="antialiased">
+    <aside id="cct-community-banner" aria-label="夸克新手村 QQ群广告">
+      <div class="cct-community-inner">
+        <div class="cct-community-copy">
+          <span class="cct-community-badge" aria-hidden="true">社群</span>
+          <div class="cct-community-text">
+            <strong>夸克新手村</strong>
+            <span class="cct-community-detail"><span class="cct-community-topic">QKI / CCT 交流 · </span>QQ群 <span id="cct-community-number">718614283</span></span>
+          </div>
+        </div>
+        <div class="cct-community-actions">
+          <a id="cct-community-join" href="mqqapi://card/show_pslcard?src_type=internal&amp;version=1&amp;uin=718614283&amp;card_type=group&amp;source=qrcode" aria-label="打开 QQ，加入夸克新手村群 718614283" title="打开 QQ 群资料页；无法唤起时可复制群号搜索">加入QQ群 <span aria-hidden="true">↗</span></a>
+          <button id="cct-community-copy" type="button" aria-label="复制QQ群号 718614283">复制群号</button>
+        </div>
+      </div>
+      <p id="cct-community-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    </aside>
+    <script id="cct-community-script">
+      (() => {
+        const groupNumber = '718614283';
+        const banner = document.getElementById('cct-community-banner');
+        const copyButton = document.getElementById('cct-community-copy');
+        const joinLink = document.getElementById('cct-community-join');
+        const status = document.getElementById('cct-community-status');
+        let messageTimer;
+        function showMessage(message) {
+          clearTimeout(messageTimer);
+          status.textContent = message;
+          messageTimer = setTimeout(() => {
+            status.textContent = '';
+            copyButton.textContent = '复制群号';
+          }, 7000);
+        }
+        function updateScrollOffset() {
+          document.documentElement.style.setProperty('--cct-community-height', `${banner.getBoundingClientRect().height + 12}px`);
+        }
+        updateScrollOffset();
+        if ('ResizeObserver' in window) new ResizeObserver(updateScrollOffset).observe(banner);
+        else window.addEventListener('resize', updateScrollOffset);
+        joinLink.addEventListener('click', () => {
+          showMessage('若未打开 QQ，请复制群号 718614283，在 QQ 中搜索「夸克新手村」加群。');
+        });
+        copyButton.addEventListener('click', async () => {
+          let copied = false;
+          try {
+            if (navigator.clipboard && window.isSecureContext) {
+              await navigator.clipboard.writeText(groupNumber);
+              copied = true;
+            }
+          } catch (_) { /* Continue with the browser copy fallback. */ }
+          if (!copied) {
+            const field = document.createElement('textarea');
+            field.value = groupNumber;
+            field.setAttribute('readonly', '');
+            field.style.cssText = 'position:fixed;left:-9999px;top:0;opacity:0;';
+            const previousFocus = document.activeElement;
+            document.body.appendChild(field);
+            field.select();
+            try { copied = document.execCommand('copy'); } catch (_) { copied = false; }
+            field.remove();
+            if (previousFocus instanceof HTMLElement) previousFocus.focus({ preventScroll: true });
+          }
+          if (copied) {
+            copyButton.textContent = '已复制';
+            showMessage('群号 718614283 已复制，可在 QQ 中搜索加群。');
+          } else {
+            showMessage('复制未成功，请长按或选中群号 718614283 手动复制。');
+          }
+        });
+      })();
+    </script>
     <div id="root"></div>
     <noscript>请启用浏览器的 JavaScript，以免费查询 CCT / QKI 链上数据并运行产出、赎回盈亏与多地址清仓模拟。</noscript>
   </body>
 </html>
+
