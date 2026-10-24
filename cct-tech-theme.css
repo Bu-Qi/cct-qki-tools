@@ -2576,3 +2576,55 @@ h1 { color: #f1f6ff; font-size: clamp(32px, 3.4vw, 46px); letter-spacing: -1.5px
   .cct-daily-chart-value { word-break: normal; overflow-wrap: anywhere; }
   .cct-daily-metric > strong { letter-spacing: -.6px; }
 }
+
+
+/* Compact, centered free-access callout (2026-10-24). */
+.cct-free-access {
+  box-sizing: border-box !important;
+  width: min(100%, 980px) !important;
+  max-width: 980px !important;
+  min-height: 0 !important;
+  margin: 22px auto 24px !important;
+  padding: 20px 26px !important;
+  display: grid !important;
+  grid-template-columns: 48px minmax(0, 1fr) auto !important;
+  align-items: center !important;
+  gap: 18px !important;
+  border: 1px solid rgba(91, 224, 199, .18) !important;
+  border-radius: 18px !important;
+  background: linear-gradient(115deg, rgba(14, 52, 56, .92), rgba(11, 29, 46, .96)) !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,.15) !important;
+}
+.cct-free-access .cct-free-symbol {
+  width: 48px !important; height: 48px !important;
+  display: grid !important; place-items: center !important;
+  margin: 0 !important; border-radius: 14px !important;
+  background: rgba(75, 221, 195, .1) !important;
+}
+.cct-free-access > div { min-width: 0 !important; }
+.cct-free-access strong { font-size: 17px !important; line-height: 1.45 !important; }
+.cct-free-access p { margin: 5px 0 0 !important; font-size: 13px !important; line-height: 1.65 !important; }
+.cct-free-access > a {
+  display: inline-flex !important; align-items: center !important;
+  justify-content: center !important; gap: 7px !important;
+  width: auto !important; padding: 11px 16px !important;
+  border-radius: 11px !important; white-space: nowrap !important;
+  background: rgba(70, 208, 181, .12) !important;
+  border: 1px solid rgba(91, 224, 199, .26) !important;
+  text-decoration: none !important;
+}
+@media (max-width: 760px) {
+  .cct-free-access {
+    width: calc(100% - 24px) !important;
+    padding: 18px !important;
+    grid-template-columns: 42px minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+  .cct-free-access .cct-free-symbol { width: 42px !important; height: 42px !important; }
+  .cct-free-access > a { grid-column: 2 !important; justify-self: start !important; padding: 9px 13px !important; }
+}
+@media (max-width: 390px) {
+  .cct-free-access { grid-template-columns: minmax(0, 1fr) !important; }
+  .cct-free-access .cct-free-symbol { display: none !important; }
+  .cct-free-access > a { grid-column: 1 !important; }
+}
