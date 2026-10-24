@@ -2347,7 +2347,8 @@ h1 { color: #f1f6ff; font-size: clamp(32px, 3.4vw, 46px); letter-spacing: -1.5px
 .cct-free-access {
   color: var(--ink);
   background: var(--tech-panel);
-  border: 1px solid var(--line);
+  border: 0 !important;
+  box-shadow: none !important;
 }
 
 .cct-free-symbol {
