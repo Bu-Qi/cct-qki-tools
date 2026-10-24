@@ -4,14 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#070d19" />
-    <title>CCT / QKI 观察站 · 免费链上数据与模拟工具</title>
+    <title>CCT 算力观察站 · QKI 持仓与清仓模拟</title>
     <meta
       name="description"
-      content="免费查询 CCT 全网算力、地址排名、UTC+8 每日总量与燃烧趋势，并使用产出模拟、QKI 净持仓占比、赎回盈亏和多地址清仓模拟。先显示已核验快照，按需刷新，支持 CSV 导出，无需登录、付费或连接钱包。"
+      content="查询 CCT 全网算力、地址排名、总供应量与燃烧数据，模拟产出与燃烧后的变化；查看 GAS/QKI 买入、赎回、净持仓与盈亏，并按自定义地址顺序模拟全部清仓。支持 CSV 导出，只读查询，无需连接钱包。"
     />
     <link rel="icon" type="image/svg+xml" href="/cct-qki-tools/favicon.svg" />
-    <script type="module" crossorigin src="/cct-qki-tools/assets/index-BddbIj6A.js"></script>
-    <link rel="stylesheet" crossorigin href="/cct-qki-tools/assets/index-CJK_GGZl.css">
     <style id="cct-community-style">
       html { scroll-padding-top: var(--cct-community-height, 84px); }
       #cct-community-banner { position: sticky; top: 0; z-index: 40; color: #234032; background: #f0f7e8; border-bottom: 1px solid #d2dfc7; font-family: inherit; }
@@ -49,6 +47,8 @@
       }
       @media print { #cct-community-banner { display: none; } }
     </style>
+    <script type="module" crossorigin src="/cct-qki-tools/assets/index-eteL8W9P.js"></script>
+    <link rel="stylesheet" crossorigin href="/cct-qki-tools/assets/index-CdSaDfyH.css">
     <link rel="stylesheet" href="/cct-qki-tools/cct-tech-theme.css?v=20261024-tech1" />
   </head>
   <body class="antialiased">
@@ -123,7 +123,7 @@
       })();
     </script>
     <div id="root"></div>
-    <noscript>请启用浏览器的 JavaScript，以免费查询 CCT / QKI 链上数据并运行产出、赎回盈亏与多地址清仓模拟。</noscript>
+    <noscript>请启用浏览器的 JavaScript，以查询链上数据并运行产出、燃烧和清仓模拟。</noscript>
   </body>
 </html>
 
