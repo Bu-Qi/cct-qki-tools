@@ -28,14 +28,19 @@
       "sha256": "3dd3de617234061e69c1e79d311d7c23b0e489f0271e8890796c28186422256a"
     },
     {
+      "path": "cct-tech-theme.css",
+      "bytes": 61086,
+      "sha256": "10db198cf1f7b17618ed06d420aee4520ee91496b031a1be794c7582cb826cfd"
+    },
+    {
       "path": "favicon.svg",
       "bytes": 313,
       "sha256": "a3ed65f382810b2818abd463f11c0e1ed576587267df75f83db0788ee077e1c5"
     },
     {
       "path": "index.html",
-      "bytes": 8185,
-      "sha256": "c5a0842873af7c75d4e6e392b2bfb18c772f8ce0ed1960f733463f7294776bde"
+      "bytes": 8273,
+      "sha256": "9777b7f1bb758c1457e8a292a9441e66cf90c2ebe10849b5ad0e286614994517"
     }
   ]
 }
