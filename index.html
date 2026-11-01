@@ -50,10 +50,24 @@
     <script type="module" crossorigin src="/cct-qki-tools/assets/index-eteL8W9P.js?v=20261027-daily-two-upgrades"></script>
     <link rel="stylesheet" crossorigin href="/cct-qki-tools/assets/index-CdSaDfyH.css">
     <link rel="stylesheet" href="/cct-qki-tools/cct-tech-theme.css?v=20261024-centered3" />
+    <link rel="stylesheet" href="/cct-qki-tools/cct-live-price.css?v=20261101" />
+    <script defer src="/cct-qki-tools/cct-live-price.js?v=20261101"></script>
   </head>
   <body class="antialiased">
     <aside id="cct-community-banner" aria-label="夸克新手村 QQ群广告">
       <div class="cct-community-inner">
+        <section id="cct-live-price" class="cct-live-price" aria-label="CCT 当前价格" data-state="loading">
+          <div class="cct-live-price-heading">
+            <span class="cct-live-price-dot" aria-hidden="true"></span>
+            <span>CCT 当前价格</span>
+            <button id="cct-price-refresh" type="button" aria-label="刷新 CCT 价格" title="刷新 CCT 价格">↻</button>
+          </div>
+          <div class="cct-live-price-quotes" role="status" aria-live="polite" aria-atomic="true">
+            <span><strong id="cct-price-usdt">读取中…</strong> <small>USDT</small></span>
+            <span class="cct-live-price-qki"><span id="cct-price-qki">—</span> QKI</span>
+          </div>
+          <p id="cct-price-status">1 CCT · 每 30 秒更新</p>
+        </section>
         <div class="cct-community-copy">
           <span class="cct-community-badge" aria-hidden="true">社群</span>
           <div class="cct-community-text">

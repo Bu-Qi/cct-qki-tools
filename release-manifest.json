@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6083,
-      "sha256": "2a4aa2f0f16478608e233bc774b27ea4f5e1562c036d99f53685ec0a18430366"
+      "bytes": 6738,
+      "sha256": "31c133b28f7737f1dc7a1de00644796b253027011fc89c2045628d28af8de6c5"
     },
     {
       "path": "assets/index-CdSaDfyH.css",
@@ -24,13 +24,23 @@
     },
     {
       "path": "assets/index-eteL8W9P.js",
-      "bytes": 1048270,
-      "sha256": "a7dc752572cdb8e051fc48fd7199937b9760052643ff20d106811a129f07948e"
+      "bytes": 1050120,
+      "sha256": "ff6d21ee85f2929c45a92e8487818f881f153aaae429ef7e898d240113dba506"
+    },
+    {
+      "path": "cct-live-price.css",
+      "bytes": 3044,
+      "sha256": "510de2c1952ec5a8303489350b0c10e13a0bdbf8b52034d910f31a763027dac0"
+    },
+    {
+      "path": "cct-live-price.js",
+      "bytes": 7761,
+      "sha256": "480b6ab05b7d9d7b4787bceae4344c714ed2d587b4468c312f3808702ae645ab"
     },
     {
       "path": "cct-tech-theme.css",
-      "bytes": 61086,
-      "sha256": "10db198cf1f7b17618ed06d420aee4520ee91496b031a1be794c7582cb826cfd"
+      "bytes": 63337,
+      "sha256": "ed5affe98ecb75a5356dfe28f4565fd0cec9af42f4ff256f70bccfbb0bc38908"
     },
     {
       "path": "favicon.svg",
@@ -39,8 +49,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 8229,
-      "sha256": "0845257bbd219681fee6f8f4f0f73f6c1bc25a8fb762f4cacade793c01211e34"
+      "bytes": 9226,
+      "sha256": "789624d638e159e20e0223602ebffe7b04ec6ea379c7aabf77c1910c5462d858"
     }
   ]
 }
