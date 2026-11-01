@@ -1,4 +1,9 @@
 #cct-community-banner .cct-community-inner { flex-wrap: wrap; }
+#root .brand-mark {
+  background: url('/cct-qki-tools/assets/cct-logo-blue.png') center / 32px 32px no-repeat;
+  filter: none;
+}
+#root .brand-mark svg { visibility: hidden; }
 #cct-live-price {
   flex: 0 0 auto;
   min-width: 235px;
@@ -20,6 +25,14 @@
   height: 5px;
   border-radius: 50%;
   background: #8198a4;
+}
+#cct-live-price .cct-live-price-icon {
+  display: block;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 50%;
 }
 #cct-live-price[data-state="live"] .cct-live-price-dot { background: #54dec0; box-shadow: 0 0 7px #54dec066; }
 #cct-live-price[data-state="stale"] .cct-live-price-dot,

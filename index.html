@@ -9,7 +9,7 @@
       name="description"
       content="查询 CCT 全网算力、地址排名、总供应量与燃烧数据，模拟产出与燃烧后的变化；查看 GAS/QKI 买入、赎回、净持仓与盈亏，并按自定义地址顺序模拟全部清仓。支持 CSV 导出，只读查询，无需连接钱包。"
     />
-    <link rel="icon" type="image/svg+xml" href="/cct-qki-tools/favicon.svg" />
+    <link rel="icon" type="image/png" href="/cct-qki-tools/assets/cct-logo-blue.png" />
     <style id="cct-community-style">
       html { scroll-padding-top: var(--cct-community-height, 84px); }
       #cct-community-banner { position: sticky; top: 0; z-index: 40; color: #234032; background: #f0f7e8; border-bottom: 1px solid #d2dfc7; font-family: inherit; }
@@ -50,7 +50,7 @@
     <script type="module" crossorigin src="/cct-qki-tools/assets/index-eteL8W9P.js?v=20261027-daily-two-upgrades"></script>
     <link rel="stylesheet" crossorigin href="/cct-qki-tools/assets/index-CdSaDfyH.css">
     <link rel="stylesheet" href="/cct-qki-tools/cct-tech-theme.css?v=20261024-centered3" />
-    <link rel="stylesheet" href="/cct-qki-tools/cct-live-price.css?v=20261101" />
+    <link rel="stylesheet" href="/cct-qki-tools/cct-live-price.css?v=20261101-icon" />
     <script defer src="/cct-qki-tools/cct-live-price.js?v=20261101"></script>
   </head>
   <body class="antialiased">
@@ -58,6 +58,7 @@
       <div class="cct-community-inner">
         <section id="cct-live-price" class="cct-live-price" aria-label="CCT 当前价格" data-state="loading">
           <div class="cct-live-price-heading">
+            <img class="cct-live-price-icon" src="/cct-qki-tools/assets/cct-logo-blue.png" width="20" height="20" alt="" decoding="async" />
             <span class="cct-live-price-dot" aria-hidden="true"></span>
             <span>CCT 当前价格</span>
             <button id="cct-price-refresh" type="button" aria-label="刷新 CCT 价格" title="刷新 CCT 价格">↻</button>

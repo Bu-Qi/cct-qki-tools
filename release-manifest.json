@@ -18,6 +18,11 @@
       "sha256": "31c133b28f7737f1dc7a1de00644796b253027011fc89c2045628d28af8de6c5"
     },
     {
+      "path": "assets/cct-logo-blue.png",
+      "bytes": 32490,
+      "sha256": "1f26d4e6ddbe82b15c20151b3e8f9e1cb80062b50f9f03aa779ffd0d4d879129"
+    },
+    {
       "path": "assets/index-CdSaDfyH.css",
       "bytes": 258713,
       "sha256": "85fd51d27a22606f84f00c4dee90ad71cdadae21b697e3446094e6100f4c6262"
@@ -29,8 +34,8 @@
     },
     {
       "path": "cct-live-price.css",
-      "bytes": 3044,
-      "sha256": "510de2c1952ec5a8303489350b0c10e13a0bdbf8b52034d910f31a763027dac0"
+      "bytes": 3372,
+      "sha256": "60ee5ce8aa8be092b2b70335ab9e2d7481dac323f9505966899ef4422ce7923b"
     },
     {
       "path": "cct-live-price.js",
@@ -49,8 +54,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9226,
-      "sha256": "789624d638e159e20e0223602ebffe7b04ec6ea379c7aabf77c1910c5462d858"
+      "bytes": 9381,
+      "sha256": "e51279fe73e182d3afb2c3475578b83ed7653c0105aa1227b1c77a2c9cbb8467"
     }
   ]
 }
