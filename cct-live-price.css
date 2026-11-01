@@ -4,6 +4,15 @@
   filter: none;
 }
 #root .brand-mark svg { visibility: hidden; }
+#root .network-pill::before {
+  content: '';
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  background: url('/cct-qki-tools/assets/qki-logo.png') center / contain no-repeat;
+  border-radius: 50%;
+}
+#root .network-pill .network-dot { display: none; }
 #cct-live-price {
   flex: 0 0 auto;
   min-width: 235px;
@@ -47,7 +56,8 @@
 }
 #cct-live-price strong { color: #70ebd1; font-size: 18px; font-weight: 700; letter-spacing: -.3px; }
 #cct-live-price small { color: #a9c7ce; font-size: 10px; }
-#cct-live-price .cct-live-price-qki { color: #c3d8de; font-size: 11px; white-space: nowrap; }
+#cct-live-price .cct-live-price-qki { display: inline-flex; align-items: center; gap: 4px; color: #c3d8de; font-size: 11px; white-space: nowrap; }
+#cct-live-price .qki-token-icon { display: block; flex: 0 0 14px; width: 14px; height: 14px; object-fit: contain; border-radius: 50%; }
 #cct-live-price p { margin: 3px 0 0; color: #87a5b0; font-size: 9px; }
 #cct-live-price[data-state="stale"] p,
 #cct-live-price[data-state="error"] p { color: #e7b674; }

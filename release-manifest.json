@@ -33,9 +33,14 @@
       "sha256": "ff6d21ee85f2929c45a92e8487818f881f153aaae429ef7e898d240113dba506"
     },
     {
+      "path": "assets/qki-logo.png",
+      "bytes": 17351,
+      "sha256": "8c12aee464b216e1d30916c07616e81d07baa387879735700e1d41368786f0f7"
+    },
+    {
       "path": "cct-live-price.css",
-      "bytes": 3372,
-      "sha256": "60ee5ce8aa8be092b2b70335ab9e2d7481dac323f9505966899ef4422ce7923b"
+      "bytes": 3815,
+      "sha256": "0c486a322e6efe2d1935c0342ff717c45c3a77b704e986145562bae39f484545"
     },
     {
       "path": "cct-live-price.js",
@@ -54,8 +59,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9381,
-      "sha256": "e51279fe73e182d3afb2c3475578b83ed7653c0105aa1227b1c77a2c9cbb8467"
+      "bytes": 9503,
+      "sha256": "32fbc899b8840e393418f69709ed8296653c97bb586b2d0eac66e19b1e064457"
     }
   ]
 }
