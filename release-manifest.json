@@ -1,6 +1,11 @@
 {
   "schemaVersion": 2,
   "scope": "cct-qki-free",
+  "cct": {
+    "implementation": "0xbcc691d259430c74f4829f80e26b714fa765882b",
+    "miningRulesVersion": 3,
+    "snapshotBlock": 38204136
+  },
   "publicApiOrigin": "https://cct-qki-tools.mofei1-9304.chatgpt.site",
   "publicRpcEndpoints": [
     "https://rpc1.qkiscan.io/",
@@ -14,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6738,
-      "sha256": "31c133b28f7737f1dc7a1de00644796b253027011fc89c2045628d28af8de6c5"
+      "bytes": 7712,
+      "sha256": "b733429295bb23f3312922670c96903ec12e316723bc66cd2ccbf95e6570b8b2"
     },
     {
       "path": "assets/cct-logo-blue.png",
@@ -28,9 +33,9 @@
       "sha256": "85fd51d27a22606f84f00c4dee90ad71cdadae21b697e3446094e6100f4c6262"
     },
     {
-      "path": "assets/index-eteL8W9P.js",
-      "bytes": 1050120,
-      "sha256": "ff6d21ee85f2929c45a92e8487818f881f153aaae429ef7e898d240113dba506"
+      "path": "assets/index-DUW_CFpV.js",
+      "bytes": 1246986,
+      "sha256": "f3c8738797a49eaa67ed9efb0bd6f619eeaa620e462b7f140307ac884ce4b01e"
     },
     {
       "path": "assets/qki-logo.png",
@@ -59,8 +64,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9503,
-      "sha256": "32fbc899b8840e393418f69709ed8296653c97bb586b2d0eac66e19b1e064457"
+      "bytes": 9473,
+      "sha256": "d2e7071448e324ef733ae472fb75bb128cc6ca98b534ed1eeedb00e339bd1ec5"
     }
   ]
 }
